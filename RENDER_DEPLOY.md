@@ -26,8 +26,8 @@
 - **Region**: `Singapore`（日本に近い）
 - **Branch**: `main`
 - **Root Directory**: （空白のまま）
-- **Runtime**: `Python 3`
-- **Build Command**: `pip install -r requirements.txt`
+- **Runtime**: `Python 3`（自動的に`runtime.txt`のバージョンを使用）
+- **Build Command**: `pip install --upgrade pip && pip install -r requirements.txt`
 - **Start Command**: `python app.py`
 
 ### 環境変数の設定
